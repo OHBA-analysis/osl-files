@@ -35,21 +35,23 @@ copy the cache across.
 
 ## Packages that use these files
 
-| Package | Checksum registry | Download command |
-| --- | --- | --- |
-| [osl-dynamics](https://github.com/OHBA-analysis/osl-dynamics) | `osl_dynamics/files/registry.txt` | `osl-dynamics-download-data` |
+| Package | Download command |
+| --- | --- |
+| [osl-dynamics](https://github.com/OHBA-analysis/osl-dynamics) | `osl-dynamics-download-data` |
 
 ## Adding or changing files
 
-Files are fetched from `main` and checked against a checksum recorded in the
-package that fetches them, so a file's path *and* its contents are both part of
-the interface:
+Add, change or remove the file here and open a pull request. That is the whole
+procedure: `registry.txt` lists every data file with its SHA-256 checksum, and
+is regenerated automatically on every push to `main` by
+[the Registry workflow](.github/workflows/registry.yml). The packages download
+that registry at runtime, so a change here reaches users on their next run
+without any package needing to be released.
 
-1. Add or change the file here and open a pull request.
-2. Regenerate the checksum registry in each package that fetches it (see the
-   table above) and release that package.
+The checksum is also what refreshes a cache. Change a file's contents and its
+checksum changes, so anyone holding the old copy downloads the new one; leave
+it alone and nobody re-downloads anything.
 
-Editing a file in place, renaming it or moving it breaks every already-released
-version of the packages that fetch it, because the checksum they recorded no
-longer matches. Prefer adding a new file under a new name, and remove the old
-one only once no supported release still fetches it.
+Renaming or moving a file is the one thing to be careful with, since already
+released packages ask for files by path. Prefer adding a new file under a new
+name, and remove the old one only once no supported release still fetches it.
