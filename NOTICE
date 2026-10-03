@@ -30,6 +30,14 @@ Desikan-Killiany parcellations (files/parcellation/atlas-DK_*)
     Distributed under the FreeSurfer Software License.
     See LICENSES/Desikan-Killiany-FreeSurfer.txt.
 
+Glasser parcellations (parcellation/atlas-Glasser_*)
+    Glasser52: A parcellation for MEG analysis. Kohl, Woolrich, Nobre and
+    Quinn, University of Oxford. Licensed under CC BY 4.0.
+    https://doi.org/10.5281/zenodo.11099418
+    See LICENSES/Glasser52-CC-BY-4.0.txt.
+    Derived from the HCP multi-modal parcellation (HCP-MMP1.0),
+    Glasser et al. (2016), Nature 536:171-178.
+
 Schaefer parcellations (files/parcellation/atlas-Schaefer_*)
     Schaefer et al. (2018), Cerebral Cortex 28:3095-3114.
     From the CBIG repository, licensed under the MIT License.
