@@ -9,7 +9,8 @@ scenes.
 | Directory | Contents |
 | --- | --- |
 | `parcellation/` | Volumetric brain parcellations (AAL, Desikan-Killiany, Giles, Schaefer). Labels, MNI coordinates and pictures for each one are in [docs/parcellations](docs/parcellations). |
-| `mask/` | MNI152 brain masks at several resolutions, and cortical surface meshes for plotting |
+| `mask/` | MNI152 brain masks at several resolutions |
+| `surface/` | Cortical surface meshes for plotting, one directory per surface space |
 | `mni152_surfaces/` | Pre-extracted MNI152 skull and scalp surfaces, for use with RHINO when no subject MRI is available |
 | `scanner/` | MEG scanner layouts and channel names (CTF-275, Neuromag-306) |
 | `scene/` | HCP Workbench scene files |
