@@ -12,30 +12,30 @@ Labels and MNI coordinates:
 
 | Index | Parcel | Hemisphere | X | Y | Z |
 | --- | --- | --- | --- | --- | --- |
-| 0 | Sensorimotor | left | -31.3 | -13.0 | 50.0 |
-| 1 | Sensorimotor | right | 33.2 | -14.9 | 49.9 |
-| 2 | Lateral Frontal | left | -27.6 | 33.4 | 30.2 |
-| 3 | Lateral Frontal | right | 32.0 | 31.6 | 31.0 |
-| 4 | Orbitofrontal | left | -21.5 | 39.0 | -13.4 |
-| 5 | Orbitofrontal | right | 24.5 | 40.1 | -13.3 |
-| 6 | Parietal | left | -28.9 | -53.5 | 45.1 |
-| 7 | Parietal | right | 32.6 | -52.8 | 44.4 |
-| 8 | Lateral Temporal | left | -48.0 | -25.9 | -12.3 |
-| 9 | Lateral Temporal | right | 51.0 | -26.1 | -11.9 |
-| 10 | Occipital | left | -19.4 | -79.2 | 10.0 |
-| 11 | Occipital | right | 23.1 | -77.2 | 11.1 |
+| 0 | Sensorimotor | left | -31.8 | -12.6 | 48.0 |
+| 1 | Sensorimotor | right | 32.7 | -14.9 | 48.8 |
+| 2 | Lateral Frontal | left | -26.8 | 32.9 | 29.6 |
+| 3 | Lateral Frontal | right | 30.8 | 31.1 | 30.8 |
+| 4 | Orbitofrontal | left | -20.7 | 38.7 | -13.4 |
+| 5 | Orbitofrontal | right | 23.0 | 39.9 | -13.1 |
+| 6 | Parietal | left | -29.0 | -53.3 | 44.1 |
+| 7 | Parietal | right | 32.3 | -52.1 | 43.0 |
+| 8 | Lateral Temporal | left | -47.2 | -26.8 | -11.8 |
+| 9 | Lateral Temporal | right | 49.5 | -27.8 | -11.2 |
+| 10 | Occipital | left | -19.5 | -78.6 | 9.9 |
+| 11 | Occipital | right | 22.7 | -76.3 | 11.0 |
 | 12 | Insula | left | -35.4 | 5.5 | 2.2 |
 | 13 | Insula | right | 38.7 | 5.1 | 0.8 |
-| 14 | Medial Temporal | left | -23.4 | -17.6 | -17.1 |
-| 15 | Medial Temporal | right | 26.9 | -16.5 | -17.3 |
-| 16 | Basal Ganglia | left | -18.1 | 5.1 | 3.9 |
+| 14 | Medial Temporal | left | -23.5 | -17.7 | -16.9 |
+| 15 | Medial Temporal | right | 26.9 | -16.5 | -17.2 |
+| 16 | Basal Ganglia | left | -18.5 | 5.0 | 3.6 |
 | 17 | Basal Ganglia | right | 21.2 | 6.2 | 3.9 |
-| 18 | Cerebellum (lateral) | left | -25.5 | -60.9 | -35.1 |
-| 19 | Cerebellum (lateral) | right | 28.4 | -60.9 | -37.1 |
+| 18 | Cerebellum (lateral) | left | -24.4 | -60.9 | -34.8 |
+| 19 | Cerebellum (lateral) | right | 26.2 | -61.1 | -36.0 |
 | 20 | Anterior Cingulate | midline | 1.8 | 34.9 | 13.7 |
 | 21 | Middle Cingulate | midline | 1.0 | -18.0 | 36.5 |
-| 22 | Thalamus | midline | 0.5 | -18.8 | 6.8 |
-| 23 | Cerebellar Vermis | midline | 1.8 | -57.8 | -18.9 |
+| 22 | Thalamus | midline | 0.5 | -18.8 | 6.9 |
+| 23 | Cerebellar Vermis | midline | 1.8 | -58.6 | -19.5 |
 
 Each AAL24 parcel was formed by merging the following AAL116 regions:
 
