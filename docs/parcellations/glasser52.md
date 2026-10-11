@@ -4,6 +4,8 @@ In osl-dynamics, this parcellation file is named `atlas-Glasser_nparc-52_space-M
 
 This parcellation was based on the [HCP-MMP](https://pmc.ncbi.nlm.nih.gov/articles/PMC4990127/) atlas.
 
+It is also available at 2 mm as `atlas-Glasser_nparc-52_space-MNI_res-2x2x2.nii.gz`, for use with fMRI on the MNI152 2 mm grid. Both come from the same [Zenodo deposit](https://doi.org/10.5281/zenodo.11099418) (Kohl, Woolrich, Nobre and Quinn), where they are named `Glasser52_binary_space-MNI152NLin6_res-{8x8x8,2x2x2}.nii.gz`; the parcels are binary, non-overlapping and in the same order at both resolutions. The coordinates below are from the 8 mm file.
+
 ## Parcels
 
 ![Glasser52 Parcellation](glasser52.png)

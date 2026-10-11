@@ -4,6 +4,9 @@ This parcellation file is named `atlas-Giles_nparc-38_space-MNI_res-8x8x8.nii.gz
 
 This is the original parcellation created by Giles Colclough based on applying ICA to fMRI data from 100 subjects.
 
+It is also available at 2 mm as `atlas-Giles_nparc-38_space-MNI_res-2x2x2.nii.gz`, for use with fMRI on the MNI152 2 mm grid. This is `fMRI_parcellation_ds2mm.nii.gz` from [OHBA-analysis/parcellations](https://github.com/OHBA-analysis/parcellations) (whose `fMRI_parcellation_ds8mm.nii.gz` is identical to the 8 mm file here): the same 38 parcels in the same order, before the 5 mm smoothing and downsampling that produced the 8 mm file. The coordinates below are from the 8 mm file.
+
+
 ## Parcels
 
 ![Giles38 Parcellation](giles38.png)
