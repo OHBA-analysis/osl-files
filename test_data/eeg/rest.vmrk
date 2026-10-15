@@ -1,0 +1,23 @@
+Brain Vision Data Exchange Marker File, Version 1.0
+; Exported using pybv 0.8.1
+
+[Common Infos]
+Codepage=UTF-8
+DataFile=rest.eeg
+
+[Marker Infos]
+; Each entry: Mk<Marker number>=<Type>,<Description>,<Position in data points>,
+;             <Size in data points>, <Channel number (0 = marker is related to all channels)>
+;             <Date (YYYYMMDDhhmmssuuuuuu)>
+; Fields are delimited by commas, some fields might be omitted (empty).
+; Commas in type or description text are coded as "\1".
+Mk1=New Segment,,1,1,0,20000101000000000000
+Mk2=Comment,event_1,501,12,0
+Mk3=Comment,event_2,1001,12,0
+Mk4=Comment,event_1,1501,12,0
+Mk5=Comment,event_2,2001,12,0
+Mk6=Comment,event_1,2501,12,0
+Mk7=Comment,event_2,3001,12,0
+Mk8=Comment,event_1,3501,12,0
+Mk9=Comment,event_2,4001,12,0
+Mk10=Comment,event_1,4501,12,0

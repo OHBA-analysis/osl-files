@@ -14,6 +14,7 @@ scenes.
 | `surface/mni152/` | Pre-extracted MNI152 skull and scalp surfaces, for use with RHINO when no subject MRI is available |
 | `scanner/` | MEG scanner layouts and channel names (CTF-275, Neuromag-306) |
 | `scene/` | HCP Workbench scene files |
+| `test_data/` | Short M/EEG recordings for testing (Elekta, CTF, OPM, EEG): real sensor geometry with a synthetic signal, see [test_data/README.md](test_data/README.md) |
 
 ## Where they are cached
 
@@ -39,6 +40,7 @@ copy the cache across.
 | Package | Download command |
 | --- | --- |
 | [osl-dynamics](https://github.com/OHBA-analysis/osl-dynamics) | `osl-dynamics-download-data` |
+| [osl-ephys](https://github.com/OHBA-analysis/osl-ephys) | `osl-ephys-download-data` (from v3) |
 
 ## Adding or changing files
 
