@@ -12,7 +12,8 @@ scenes.
 | `mask/` | MNI152 brain masks at several resolutions |
 | `surface/32k_fs_LR/` | Cortical surface meshes for plotting |
 | `surface/mni152/` | Pre-extracted MNI152 skull and scalp surfaces, for use with RHINO when no subject MRI is available |
-| `scanner/` | MEG scanner layouts and channel names (CTF-275, Neuromag-306) |
+| `scanner/` | MEG scanner layouts and channel names (CTF-275, Neuromag-306), and a Neuromag-306 template `info` for simulations |
+| `simulation/` | MVAR model parameters fitted to resting-state Neuromag-306 data, for simulating sensor-space MEG |
 | `scene/` | HCP Workbench scene files |
 | `test_data/` | Short M/EEG recordings for testing (Elekta, CTF, OPM, EEG): real sensor geometry with a synthetic signal, see [test_data/README.md](test_data/README.md) |
 
