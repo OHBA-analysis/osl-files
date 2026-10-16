@@ -6,6 +6,8 @@ This is a modified version of the [original Giles parcellation](giles38.md) to i
 
 This parcellation was used in [Quinn et al. (2018)](https://www.frontiersin.org/journals/neuroscience/articles/10.3389/fnins.2018.00603/full).
 
+It is also available at 2 mm as `atlas-Giles_nparc-39_space-MNI_res-2x2x2.nii.gz` (previously `fmri_d100_parcellation_with_PCC_tighterMay15_v2_2mm.nii.gz` in osl-ephys).
+
 ## Parcels
 
 ![Giles39 Parcellation](giles39.png)

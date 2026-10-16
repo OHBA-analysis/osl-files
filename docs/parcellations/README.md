@@ -22,12 +22,20 @@ them by hand.
 - [atlas-Giles_nparc-42_space-MNI_res-8x8x8.nii.gz](giles42.md)
 - [atlas-Giles_nparc-39_space-MNI_res-8x8x8.nii.gz](giles39.md)
 - [atlas-Giles_nparc-38_space-MNI_res-8x8x8.nii.gz](giles38.md)
+- [atlas-Giles_nparc-39_space-MNI_res-2x2x2.nii.gz](giles39.md)
 - [atlas-Giles_nparc-38_space-MNI_res-2x2x2.nii.gz](giles38.md)
 
 ### Schaefer parcellations
 
 - [atlas-Schaefer_nparc-100_space-MNI_res-8x8x8.nii.gz](schaefer100.md)
 - [atlas-Schaefer_nparc-100_space-MNI_res-5x5x5.nii.gz](schaefer100.md)
+- [atlas-Schaefer_nparc-100_space-MNI_res-2x2x2.nii.gz](schaefer100.md)
+
+### Schaefer + Harvard-Oxford parcellations
+
+- [atlas-SchaeferHarvOxf_nparc-114_space-MNI_res-2x2x2.nii.gz](schaeferharvoxf114.md)
+- [atlas-SchaeferHarvOxf_nparc-114_space-MNI_res-8x8x8.nii.gz](schaeferharvoxf114.md)
+- [atlas-HarvOxfSub_nparc-21_space-MNI_res-2x2x2.nii.gz](harvoxfsub21.md)
 
 ### AAL parcellations
 
@@ -35,9 +43,11 @@ them by hand.
 - [atlas-AAL_nparc-78_space-MNI_res-8x8x8.nii.gz](aal78.md)
 - [atlas-AAL_nparc-24_space-MNI_res-8x8x8.nii.gz](aal24.md)
 
+Files osl-ephys shipped before version 3 that have no maintained counterpart are kept under their original names in [`parcellation/legacy/`](../../parcellation/legacy).
+
 ## Old Naming
 
-Note, the parcellation files in osl-dynamics have been renamed:
+Note, the parcellation files in osl-dynamics and osl-ephys have been renamed:
 
 | New name | Old name |
 | --- | --- |
@@ -50,6 +60,13 @@ Note, the parcellation files in osl-dynamics have been renamed:
 | atlas-Giles_nparc-38_space-MNI_res-8x8x8.nii.gz | fmri_d100_parcellation_with_PCC_reduced_2mm_ss5mm_ds8mm.nii.gz |
 | atlas-Giles_nparc-38_space-MNI_res-2x2x2.nii.gz | fMRI_parcellation_ds2mm.nii.gz (in [OHBA-analysis/parcellations](https://github.com/OHBA-analysis/parcellations)) |
 | atlas-AAL_nparc-78_space-MNI_res-8x8x8.nii.gz | aal_cortical_merged_8mm_stacked.nii.gz |
+| atlas-Giles_nparc-38_space-MNI_res-8x8x8.nii.gz | fMRI_parcellation_ds8mm.nii.gz (osl-ephys) |
+| atlas-Giles_nparc-39_space-MNI_res-2x2x2.nii.gz | fmri_d100_parcellation_with_PCC_tighterMay15_v2_2mm.nii.gz (osl-ephys) |
+| atlas-Schaefer_nparc-100_space-MNI_res-2x2x2.nii.gz | Schaefer2018_100Parcels_7Networks_order_FSLMNI152_2mm_4d.nii.gz (osl-ephys) |
+| atlas-Schaefer_nparc-100_space-MNI_res-8x8x8.nii.gz | Schaefer2018_100Parcels_7Networks_order_FSLMNI152_2mm_4d_ds8.nii.gz (osl-ephys) |
+| atlas-SchaeferHarvOxf_nparc-114_space-MNI_res-2x2x2.nii.gz | HarvOxf-sub-Schaefer100-combined-2mm_4d.nii.gz (osl-ephys) |
+| atlas-SchaeferHarvOxf_nparc-114_space-MNI_res-8x8x8.nii.gz | HarvOxf-sub-Schaefer100-combined-2mm_4d_ds8.nii.gz (osl-ephys) |
+| atlas-HarvOxfSub_nparc-21_space-MNI_res-2x2x2.nii.gz | HarvardOxford-sub-prob-bin-2mm.nii.gz (osl-ephys) |
 
 ## MNI Coordinates
 

@@ -2,6 +2,8 @@
 
 This parcellation is a volumetric version of the Schaefer 100-parcel cortical parcellation from [Schaefer et al. (2018)](https://doi.org/10.1093/cercor/bhx179). The parcels are derived from resting-state fMRI functional connectivity gradients.
 
+It is also available at 2 mm as `atlas-Schaefer_nparc-100_space-MNI_res-2x2x2.nii.gz` (previously `Schaefer2018_100Parcels_7Networks_order_FSLMNI152_2mm_4d.nii.gz` in osl-ephys; its `_ds8` file is the 8 mm one).
+
 ## Parcels
 
 ![Schaefer100 Parcellation](schaefer100.png)

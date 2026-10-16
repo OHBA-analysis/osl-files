@@ -1,0 +1,7 @@
+Harvard-Oxford cortical and subcortical structural atlases
+
+Provided by the Harvard Center for Morphometric Analysis and distributed with
+FSL (https://fsl.fmrib.ox.ac.uk/fsl/fslwiki/Atlases). The files here derived
+from them (atlas-HarvOxfSub_nparc-21_space-MNI_res-2x2x2.nii.gz and the
+subcortical parcels of atlas-SchaeferHarvOxf_nparc-114_*) are subject to the
+terms under which FSL distributes its atlases.
